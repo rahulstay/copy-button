@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(138, 5, 138);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copy{
+    padding: 12px;
+    outline: none;
+    border: 1px solid purple;
+    border-radius: 3px;
+
+}
+#copy:focus {
+  border-color: #46004d;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+#copy:hover {
+  background-color: #ffffff;
+}
+
+#btn{
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid purple;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+}
